@@ -1,0 +1,9 @@
+playwright>=1.47
+beautifulsoup4>=4.12
+requests>=2.32
+python-dateutil>=2.9
+psycopg2-binary>=2.9
+streamlit>=1.50
+pandas>=2.2
+altair>=5.3
+pytest>=8.0
