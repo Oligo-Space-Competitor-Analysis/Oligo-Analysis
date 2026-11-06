@@ -1,0 +1,53 @@
+name: Scrape prices and press releases
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"      # every 6 hours (off the hour to avoid GitHub's top-of-hour congestion)
+  workflow_dispatch:
+    inputs:
+      task:
+        description: "prices | press | all"
+        default: "all"
+      regions:
+        description: "Optional states/ZIPs, e.g. GA,CA,30332"
+        default: ""
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
+
+      - name: Install Chromium
+        run: playwright install --with-deps chromium
+
+      - name: Unit tests
+        run: pytest -q tests
+
+      - name: Run scraper
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: |
+          python scraper.py --task "${{ github.event.inputs.task || 'all' }}" \
+            ${{ github.event.inputs.regions && format('--regions "{0}"', github.event.inputs.regions) || '' }}

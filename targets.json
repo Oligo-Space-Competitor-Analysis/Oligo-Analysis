@@ -1,0 +1,105 @@
+{
+  "_readme": "Price targets for Playwright. `selector` limits where prices are read; min/max_price reject stray numbers. Set `regional: true` only for sites whose price changes by state/ZIP. Selectors are UNVERIFIED starting points: run `python scraper.py --task prices --dry-run --headed` and adjust.",
+  "regions": [
+    "ALL"
+  ],
+  "region_templates": {
+    "cookies": [
+      {
+        "name": "region",
+        "value": "{state}"
+      },
+      {
+        "name": "zip",
+        "value": "{zip}"
+      }
+    ],
+    "headers": {
+      "X-Region": "{state}"
+    },
+    "query": {
+      "state": "{state}",
+      "zip": "{zip}"
+    }
+  },
+  "defaults": {
+    "currency": "USD",
+    "kind": "Bus price",
+    "price_basis": "single",
+    "quantity": 1,
+    "nre": "unknown",
+    "confidence": "Published",
+    "regional": false,
+    "delay_s": 3
+  },
+  "targets": [
+    {
+      "item_name": "LEO Aries · base",
+      "bus_id": "leoaries",
+      "supplier": "Apex Space",
+      "url": "https://www.apexspace.com/platforms/leo-aries",
+      "selector": "body",
+      "min_price": 1000000,
+      "max_price": 10000000,
+      "specs": {
+        "payload": 100,
+        "power": 175,
+        "pointing": 0.1194,
+        "prop": "none"
+      },
+      "_note": "Configurator price depends on selected options; confirm the page shows the base price without clicks.",
+      "source_type": "Public pricing (configurator)",
+      "source_title": "LEO Aries · base configurator"
+    },
+    {
+      "item_name": "GEO Aries · base",
+      "bus_id": "geoaries",
+      "supplier": "Apex Space",
+      "url": "https://www.apexspace.com/platforms/geo-aries",
+      "selector": "body",
+      "min_price": 5000000,
+      "max_price": 30000000,
+      "specs": {
+        "payload": 120,
+        "power": 125,
+        "pointing": 0.0056,
+        "prop": "C"
+      },
+      "source_type": "Public pricing (configurator)",
+      "source_title": "GEO Aries · base configurator"
+    },
+    {
+      "item_name": "Nova · base",
+      "bus_id": "nova",
+      "supplier": "Apex Space",
+      "url": "https://www.apexspace.com/platforms/nova",
+      "selector": "body",
+      "min_price": 2000000,
+      "max_price": 15000000,
+      "specs": {
+        "payload": 300,
+        "power": 1000,
+        "pointing": 0.0139,
+        "lead": 7,
+        "prop": "E"
+      },
+      "source_type": "Public pricing (configurator)",
+      "source_title": "Nova · base configurator"
+    },
+    {
+      "item_name": "M12P Light",
+      "bus_id": "m12",
+      "supplier": "Kongsberg NanoAvionics",
+      "url": "https://nanoavionics.com/small-satellite-configurator/",
+      "selector": "body",
+      "currency": "EUR",
+      "nre": "excluded",
+      "min_price": 100000,
+      "max_price": 2000000,
+      "enabled": false,
+      "_note": "Interactive configurator: add `actions` (click the 12U / Light options) and a result selector, then set enabled=true.",
+      "source_type": "Public pricing (configurator)",
+      "source_title": "M12P Light configurator"
+    }
+  ]
+}

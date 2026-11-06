@@ -1,0 +1,51 @@
+{
+  "_readme": "Listing pages to watch. link_selector/url_contains narrow which links are articles. Selectors are UNVERIFIED: run `python scraper.py --task press --dry-run` and tune. Sites that block scrapers or require JS need a Playwright route or an RSS feed instead.",
+  "alert_keywords": [
+    "contract",
+    "award",
+    "acquire",
+    "acquisition",
+    "funding",
+    "raises",
+    "series",
+    "launch",
+    "price",
+    "pricing",
+    "partnership",
+    "constellation",
+    "ESPA",
+    "order",
+    "IPO",
+    "layoff"
+  ],
+  "sources": [
+    {
+      "name": "Kongsberg NanoAvionics",
+      "url": "https://nanoavionics.com/news/",
+      "url_contains": "/news/",
+      "max_articles": 10,
+      "link_selector": "a[href*='/news/']",
+      "_note": "Card structure from DevTools: title in div.news-title, summary in div.news-excerpt.",
+      "title_selector": ".news-title",
+      "excerpt_selector": ".news-excerpt",
+      "category": "Press release"
+    },
+    {
+      "name": "AAC Clyde Space",
+      "url": "https://www.aac-clyde.space/articles",
+      "url_contains": "/articles/",
+      "max_articles": 10,
+      "enabled": false,
+      "_note": "robots.txt disallows /articles for our user agent. Left disabled on purpose.",
+      "category": "Press release"
+    },
+    {
+      "name": "Apex Space",
+      "url": "https://www.apexspace.com/news",
+      "url_contains": "/news",
+      "max_articles": 10,
+      "enabled": false,
+      "category": "Press release"
+    }
+  ]
+}

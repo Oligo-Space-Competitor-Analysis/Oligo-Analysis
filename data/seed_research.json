@@ -1,0 +1,2798 @@
+{
+ "snapshot": "2026-10-30",
+ "buses": [
+  {
+   "id": "epic",
+   "company": "AAC Clyde Space",
+   "model": "EPIC 6U / 12U",
+   "cls": "CubeSat",
+   "payload": [
+    8,
+    16
+   ],
+   "power": [
+    20,
+    60
+   ],
+   "pointing": [
+    0.1,
+    0.05
+   ],
+   "lead": [
+    6,
+    9
+   ],
+   "prop": "EG",
+   "flags": [
+    "family"
+   ],
+   "formFactors": [
+    "6U",
+    "12U"
+   ],
+   "confidence": "Quoted"
+  },
+  {
+   "id": "vsp",
+   "company": "Aerospacelab",
+   "model": "VSP-150 / VSP-300",
+   "cls": "ESPA / SmallSat",
+   "payload": [
+    50,
+    120
+   ],
+   "power": [
+    150,
+    450
+   ],
+   "pointing": [
+    0.02,
+    0.02
+   ],
+   "lead": [
+    6,
+    12
+   ],
+   "prop": "EG",
+   "flags": [
+    "family"
+   ],
+   "formFactors": [],
+   "confidence": "Quoted"
+  },
+  {
+   "id": "arrow150",
+   "company": "Airbus U.S. Space & Defense",
+   "model": "ARROW-150",
+   "cls": "ESPA",
+   "payload": [
+    70,
+    100
+   ],
+   "power": [
+    250,
+    250
+   ],
+   "pointing": [
+    0.3,
+    0.02
+   ],
+   "lead": [
+    6,
+    9
+   ],
+   "prop": "E",
+   "flags": [],
+   "formFactors": [],
+   "confidence": "Quoted"
+  },
+  {
+   "id": "arrow450",
+   "company": "Airbus U.S. Space & Defense",
+   "model": "ARROW-450",
+   "cls": "ESPA Grande",
+   "payload": [
+    200,
+    300
+   ],
+   "power": [
+    450,
+    820
+   ],
+   "pointing": [
+    0.3,
+    0.01
+   ],
+   "lead": [
+    9,
+    15
+   ],
+   "prop": "E",
+   "flags": [],
+   "formFactors": [],
+   "confidence": "Quoted"
+  },
+  {
+   "id": "geoaries",
+   "company": "Apex Space",
+   "model": "GEO Aries",
+   "cls": "ESPA",
+   "payload": [
+    120,
+    120
+   ],
+   "power": [
+    125,
+    125
+   ],
+   "pointing": [
+    0.005555555555555556,
+    0.005555555555555556
+   ],
+   "lead": [
+    15,
+    15
+   ],
+   "prop": "C",
+   "flags": [
+    "development"
+   ],
+   "formFactors": [],
+   "confidence": "Quoted"
+  },
+  {
+   "id": "leoaries",
+   "company": "Apex Space",
+   "model": "LEO Aries",
+   "cls": "ESPA",
+   "payload": [
+    100,
+    150
+   ],
+   "power": [
+    175,
+    175
+   ],
+   "pointing": [
+    0.11944444444444445,
+    0.022222222222222223
+   ],
+   "lead": [
+    6,
+    6
+   ],
+   "prop": "EC",
+   "flags": [
+    "conflict"
+   ],
+   "formFactors": [],
+   "confidence": "Quoted"
+  },
+  {
+   "id": "nova",
+   "company": "Apex Space",
+   "model": "Nova",
+   "cls": "ESPA Grande",
+   "payload": [
+    300,
+    300
+   ],
+   "power": [
+    1000,
+    1000
+   ],
+   "pointing": [
+    0.013888888888888888,
+    0.013888888888888888
+   ],
+   "lead": [
+    7,
+    7
+   ],
+   "prop": "E",
+   "flags": [
+    "development"
+   ],
+   "formFactors": [],
+   "confidence": "Quoted"
+  },
+  {
+   "id": "corvus",
+   "company": "Astro Digital",
+   "model": "Corvus-Micro / XL",
+   "cls": "SmallSat",
+   "payload": [
+    null,
+    null
+   ],
+   "power": [
+    40,
+    150
+   ],
+   "pointing": [
+    0.05,
+    0.05
+   ],
+   "lead": [
+    6,
+    12
+   ],
+   "prop": "NE",
+   "flags": [
+    "family"
+   ],
+   "formFactors": [],
+   "confidence": "Quoted"
+  },
+  {
+   "id": "bcp100",
+   "company": "Ball Aerospace (BAE Systems)",
+   "model": "BCP-100",
+   "cls": "ESPA",
+   "payload": [
+    70,
+    110
+   ],
+   "power": [
+    100,
+    250
+   ],
+   "pointing": [
+    0.05,
+    0.01
+   ],
+   "lead": [
+    18,
+    24
+   ],
+   "prop": "CG",
+   "flags": [],
+   "formFactors": [],
+   "confidence": "Quoted"
+  },
+  {
+   "id": "xb",
+   "company": "Blue Canyon Technologies (RTX)",
+   "model": "XB6 / XB12 / XB16",
+   "cls": "CubeSat",
+   "payload": [
+    8,
+    22
+   ],
+   "power": [
+    null,
+    null
+   ],
+   "pointing": [
+    0.002,
+    0.002
+   ],
+   "lead": [
+    6,
+    12
+   ],
+   "prop": "",
+   "flags": [
+    "family",
+    "power"
+   ],
+   "formFactors": [
+    "6U",
+    "12U",
+    "16U"
+   ],
+   "confidence": "Quoted"
+  },
+  {
+   "id": "saturn100",
+   "company": "Blue Canyon Technologies (RTX)",
+   "model": "Saturn-100 / X-Sat",
+   "cls": "ESPA",
+   "payload": [
+    70,
+    70
+   ],
+   "power": [
+    null,
+    null
+   ],
+   "pointing": [
+    0.002,
+    0.002
+   ],
+   "lead": [
+    12,
+    15
+   ],
+   "prop": "EC",
+   "flags": [
+    "power",
+    "pointing"
+   ],
+   "formFactors": [],
+   "confidence": "Quoted"
+  },
+  {
+   "id": "saturn200",
+   "company": "Blue Canyon Technologies (RTX)",
+   "model": "Saturn-200",
+   "cls": "ESPA Grande",
+   "payload": [
+    200,
+    350
+   ],
+   "power": [
+    null,
+    null
+   ],
+   "pointing": [
+    0.002,
+    0.002
+   ],
+   "lead": [
+    12,
+    18
+   ],
+   "prop": "EC",
+   "flags": [
+    "power",
+    "pointing",
+    "conflict"
+   ],
+   "formFactors": [],
+   "confidence": "Quoted"
+  },
+  {
+   "id": "saturn400",
+   "company": "Blue Canyon Technologies (RTX)",
+   "model": "Saturn-400",
+   "cls": "ESPA Grande+",
+   "payload": [
+    250,
+    600
+   ],
+   "power": [
+    null,
+    null
+   ],
+   "pointing": [
+    0.002,
+    0.002
+   ],
+   "lead": [
+    15,
+    24
+   ],
+   "prop": "EC",
+   "flags": [
+    "power",
+    "pointing"
+   ],
+   "formFactors": [],
+   "confidence": "Quoted"
+  },
+  {
+   "id": "enduro",
+   "company": "EnduroSat",
+   "model": "6U / 12U / 16U",
+   "cls": "CubeSat",
+   "payload": [
+    8,
+    20
+   ],
+   "power": [
+    20,
+    80
+   ],
+   "pointing": [
+    0.05,
+    0.05
+   ],
+   "lead": [
+    3,
+    6
+   ],
+   "prop": "EN",
+   "flags": [
+    "family"
+   ],
+   "formFactors": [
+    "6U",
+    "12U",
+    "16U"
+   ],
+   "confidence": "Quoted"
+  },
+  {
+   "id": "gom",
+   "company": "GomSpace",
+   "model": "6U / 12U",
+   "cls": "CubeSat",
+   "payload": [
+    8,
+    15
+   ],
+   "power": [
+    15,
+    55
+   ],
+   "pointing": [
+    0.1,
+    0.1
+   ],
+   "lead": [
+    6,
+    9
+   ],
+   "prop": "NE",
+   "flags": [
+    "family"
+   ],
+   "formFactors": [
+    "6U",
+    "12U"
+   ],
+   "confidence": "Quoted"
+  },
+  {
+   "id": "mega",
+   "company": "K2 Space",
+   "model": "Mega Class",
+   "cls": "Heavy",
+   "payload": [
+    3000,
+    3000
+   ],
+   "power": [
+    20000,
+    20000
+   ],
+   "pointing": [
+    0.01,
+    0.01
+   ],
+   "lead": [
+    9,
+    15
+   ],
+   "prop": "E",
+   "flags": [],
+   "formFactors": [],
+   "confidence": "Quoted"
+  },
+  {
+   "id": "m12",
+   "company": "Kongsberg NanoAvionics",
+   "model": "M12P / M16P",
+   "cls": "CubeSat",
+   "payload": [
+    16,
+    22
+   ],
+   "power": [
+    30,
+    65
+   ],
+   "pointing": [
+    0.05,
+    0.01
+   ],
+   "lead": [
+    7,
+    9
+   ],
+   "prop": "GE",
+   "flags": [
+    "family"
+   ],
+   "formFactors": [
+    "12U",
+    "16U"
+   ],
+   "confidence": "Quoted"
+  },
+  {
+   "id": "m6",
+   "company": "Kongsberg NanoAvionics",
+   "model": "M6P",
+   "cls": "CubeSat",
+   "payload": [
+    8,
+    8
+   ],
+   "power": [
+    15,
+    25
+   ],
+   "pointing": [
+    0.1,
+    0.02
+   ],
+   "lead": [
+    7,
+    7
+   ],
+   "prop": "GN",
+   "flags": [
+    "conflict"
+   ],
+   "formFactors": [
+    "6U"
+   ],
+   "confidence": "Quoted"
+  },
+  {
+   "id": "mp42",
+   "company": "Kongsberg NanoAvionics",
+   "model": "MP42",
+   "cls": "SmallSat",
+   "payload": [
+    70,
+    70
+   ],
+   "power": [
+    100,
+    100
+   ],
+   "pointing": [
+    0.05,
+    0.01
+   ],
+   "lead": [
+    7,
+    9
+   ],
+   "prop": "GE",
+   "flags": [],
+   "formFactors": [],
+   "confidence": "Quoted"
+  },
+  {
+   "id": "lm400",
+   "company": "Lockheed Martin",
+   "model": "LM 400",
+   "cls": "ESPA Grande+",
+   "payload": [
+    1100,
+    1100
+   ],
+   "power": [
+    7500,
+    7500
+   ],
+   "pointing": [
+    0.005,
+    0.005
+   ],
+   "lead": [
+    15,
+    24
+   ],
+   "prop": "CE",
+   "flags": [],
+   "formFactors": [],
+   "confidence": "Quoted"
+  },
+  {
+   "id": "lm50",
+   "company": "Lockheed Martin",
+   "model": "LM 50",
+   "cls": "ESPA / SmallSat",
+   "payload": [
+    null,
+    null
+   ],
+   "power": [
+    100,
+    500
+   ],
+   "pointing": [
+    0.01,
+    0.01
+   ],
+   "lead": [
+    12,
+    18
+   ],
+   "prop": "CE",
+   "flags": [],
+   "formFactors": [],
+   "confidence": "Quoted"
+  },
+  {
+   "id": "loft",
+   "company": "Loft Orbital",
+   "model": "Longbow / YAM",
+   "cls": "ESPA Grande",
+   "payload": [
+    100,
+    100
+   ],
+   "power": [
+    200,
+    500
+   ],
+   "pointing": [
+    0.05,
+    0.01
+   ],
+   "lead": [
+    6,
+    12
+   ],
+   "prop": "E",
+   "flags": [
+    "family",
+    "scope"
+   ],
+   "formFactors": [],
+   "confidence": "Estimated"
+  },
+  {
+   "id": "york",
+   "company": "York Space Systems",
+   "model": "S-Class",
+   "cls": "ESPA",
+   "payload": [
+    85.0,
+    85.0
+   ],
+   "power": [
+    100.0,
+    100.0
+   ],
+   "pointing": [
+    0.01,
+    0.01
+   ],
+   "lead": [
+    9.0,
+    9.0
+   ],
+   "prop": "EG",
+   "flags": [],
+   "formFactors": [],
+   "confidence": "Quoted"
+  },
+  {
+   "id": "photon",
+   "company": "Rocket Lab",
+   "model": "Photon (LEO)",
+   "cls": "ESPA",
+   "payload": [
+    170.0,
+    170.0
+   ],
+   "power": [
+    150.0,
+    150.0
+   ],
+   "pointing": [
+    0.02,
+    0.02
+   ],
+   "lead": [
+    12.0,
+    12.0
+   ],
+   "prop": "C",
+   "flags": [
+    "scope"
+   ],
+   "formFactors": [],
+   "confidence": "Estimated"
+  },
+  {
+   "id": "millennium",
+   "company": "Millennium Space Systems (Boeing)",
+   "model": "ALTAIR",
+   "cls": "ESPA / SmallSat",
+   "payload": [
+    null,
+    null
+   ],
+   "power": [
+    150,
+    600
+   ],
+   "pointing": [
+    0.01,
+    0.01
+   ],
+   "lead": [
+    12,
+    18
+   ],
+   "prop": "CE",
+   "flags": [
+    "family"
+   ],
+   "formFactors": [],
+   "confidence": "Estimated"
+  },
+  {
+   "id": "muonxl",
+   "company": "Muon Space",
+   "model": "Condor-XL",
+   "cls": "ESPA Grande",
+   "payload": [
+    null,
+    null
+   ],
+   "power": [
+    null,
+    null
+   ],
+   "pointing": [
+    0.01,
+    0.01
+   ],
+   "lead": [
+    6,
+    12
+   ],
+   "prop": "E",
+   "flags": [
+    "family"
+   ],
+   "formFactors": [],
+   "confidence": "Quoted"
+  },
+  {
+   "id": "muonsmall",
+   "company": "Muon Space",
+   "model": "Halo / Condor-M",
+   "cls": "ESPA / SmallSat",
+   "payload": [
+    null,
+    null
+   ],
+   "power": [
+    null,
+    null
+   ],
+   "pointing": [
+    0.01,
+    0.01
+   ],
+   "lead": [
+    6,
+    12
+   ],
+   "prop": "E",
+   "flags": [
+    "family"
+   ],
+   "formFactors": [],
+   "confidence": "Quoted"
+  },
+  {
+   "id": "espa",
+   "company": "Northrop Grumman",
+   "model": "ESPAStar-D / EP",
+   "cls": "ESPA Grande+",
+   "payload": [
+    null,
+    null
+   ],
+   "power": [
+    1200,
+    6800
+   ],
+   "pointing": [
+    0.0029,
+    0.0029
+   ],
+   "lead": [
+    18,
+    24
+   ],
+   "prop": "CE",
+   "flags": [
+    "family",
+    "scope"
+   ],
+   "formFactors": [],
+   "confidence": "Quoted"
+  },
+  {
+   "id": "reflex",
+   "company": "Reflex Aerospace",
+   "model": "SIGI",
+   "cls": "ESPA / SmallSat",
+   "payload": [
+    100,
+    100
+   ],
+   "power": [
+    150,
+    400
+   ],
+   "pointing": [
+    0.02,
+    0.02
+   ],
+   "lead": [
+    9,
+    12
+   ],
+   "prop": "CE",
+   "flags": [],
+   "formFactors": [],
+   "confidence": "Estimated"
+  },
+  {
+   "id": "sstl",
+   "company": "Surrey Satellite Technology (SSTL)",
+   "model": "Carbonite / SSTL-42",
+   "cls": "SmallSat",
+   "payload": [
+    20,
+    50
+   ],
+   "power": [
+    50,
+    150
+   ],
+   "pointing": [
+    0.03,
+    0.03
+   ],
+   "lead": [
+    9,
+    15
+   ],
+   "prop": "NE",
+   "flags": [
+    "family"
+   ],
+   "formFactors": [],
+   "confidence": "Quoted"
+  },
+  {
+   "id": "terrancube",
+   "company": "Terran Orbital (Lockheed Martin)",
+   "model": "Renegade / Triumph / Voyager",
+   "cls": "CubeSat",
+   "payload": [
+    null,
+    null
+   ],
+   "power": [
+    20,
+    120
+   ],
+   "pointing": [
+    0.05,
+    0.0028
+   ],
+   "lead": [
+    6,
+    12
+   ],
+   "prop": "NGE",
+   "flags": [
+    "family"
+   ],
+   "formFactors": [
+    "6U",
+    "16U"
+   ],
+   "confidence": "Quoted"
+  },
+  {
+   "id": "terranamb",
+   "company": "Terran Orbital (Lockheed Martin)",
+   "model": "Ambassador",
+   "cls": "ESPA Grande",
+   "payload": [
+    null,
+    null
+   ],
+   "power": [
+    null,
+    null
+   ],
+   "pointing": [
+    null,
+    null
+   ],
+   "lead": [
+    6,
+    12
+   ],
+   "prop": "GE",
+   "flags": [
+    "family"
+   ],
+   "formFactors": [],
+   "confidence": "Quoted"
+  },
+  {
+   "id": "yorklx",
+   "company": "York Space Systems",
+   "model": "LX-Class",
+   "cls": "ESPA Grande",
+   "payload": [
+    null,
+    null
+   ],
+   "power": [
+    null,
+    null
+   ],
+   "pointing": [
+    0.01,
+    0.01
+   ],
+   "lead": [
+    6,
+    15
+   ],
+   "prop": "EG",
+   "flags": [
+    "family"
+   ],
+   "formFactors": [],
+   "confidence": "Quoted"
+  }
+ ],
+ "price_evidence": [
+  {
+   "id": "price-aries-base",
+   "bus": "leoaries",
+   "supplier": null,
+   "config": "LEO Aries \u00b7 base",
+   "low": 3600000,
+   "high": 3600000,
+   "currency": "USD",
+   "kind": "Bus price",
+   "priceBasis": "single",
+   "quantity": 1,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "https://www.apexspace.com/platforms/leo-aries",
+   "sourceTitle": "Apex LEO Aries configurator",
+   "published": null,
+   "accessed": "2026-10-30",
+   "recorded": null,
+   "confidence": "Published",
+   "workbook": null,
+   "specs": {
+    "payload": 100,
+    "power": 175,
+    "pointing": 0.11944444444444445,
+    "prop": "none"
+   }
+  },
+  {
+   "id": "price-aries-gnc",
+   "bus": "leoaries",
+   "supplier": null,
+   "config": "LEO Aries \u00b7 precision GNC",
+   "low": 4095000,
+   "high": 4095000,
+   "currency": "USD",
+   "kind": "Bus price",
+   "priceBasis": "single",
+   "quantity": 1,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "https://www.apexspace.com/platforms/leo-aries",
+   "sourceTitle": "Apex LEO Aries configurator",
+   "published": null,
+   "accessed": "2026-10-30",
+   "recorded": null,
+   "confidence": "Published",
+   "workbook": null,
+   "specs": {
+    "payload": 100,
+    "power": 175,
+    "pointing": 0.022222222222222223,
+    "prop": "none"
+   }
+  },
+  {
+   "id": "price-aries-electric",
+   "bus": "leoaries",
+   "supplier": null,
+   "config": "LEO Aries \u00b7 precision GNC + electric",
+   "low": 4545000,
+   "high": 4545000,
+   "currency": "USD",
+   "kind": "Bus price",
+   "priceBasis": "single",
+   "quantity": 1,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "https://www.apexspace.com/platforms/leo-aries",
+   "sourceTitle": "Apex LEO Aries configurator",
+   "published": null,
+   "accessed": "2026-10-30",
+   "recorded": null,
+   "confidence": "Published",
+   "workbook": null,
+   "specs": {
+    "pointing": 0.022222222222222223,
+    "prop": "E"
+   }
+  },
+  {
+   "id": "price-geo-base",
+   "bus": "geoaries",
+   "supplier": null,
+   "config": "GEO Aries \u00b7 base",
+   "low": 13750000,
+   "high": 13750000,
+   "currency": "USD",
+   "kind": "Bus price",
+   "priceBasis": "single",
+   "quantity": 1,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "https://www.apexspace.com/platforms/geo-aries",
+   "sourceTitle": "Apex GEO Aries configurator",
+   "published": null,
+   "accessed": "2026-10-30",
+   "recorded": null,
+   "confidence": "Published",
+   "workbook": null,
+   "specs": {
+    "payload": 120,
+    "power": 125,
+    "pointing": 0.005555555555555556,
+    "prop": "C"
+   }
+  },
+  {
+   "id": "price-nova-base",
+   "bus": "nova",
+   "supplier": null,
+   "config": "Nova \u00b7 base",
+   "low": 6250000,
+   "high": 6250000,
+   "currency": "USD",
+   "kind": "Bus price",
+   "priceBasis": "single",
+   "quantity": 1,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "https://www.apexspace.com/platforms/nova",
+   "sourceTitle": "Apex Nova configurator",
+   "published": null,
+   "accessed": "2026-10-30",
+   "recorded": null,
+   "confidence": "Published",
+   "workbook": null,
+   "specs": {
+    "payload": 300,
+    "power": 1000,
+    "pointing": 0.013888888888888888,
+    "lead": 7,
+    "prop": "E"
+   }
+  },
+  {
+   "id": "price-m12light",
+   "bus": "m12",
+   "supplier": null,
+   "config": "M12P Light",
+   "low": 450960,
+   "high": 450960,
+   "currency": "EUR",
+   "kind": "Bus price",
+   "priceBasis": "single",
+   "quantity": 1,
+   "nre": "excluded",
+   "formFactor": "12U",
+   "source": "https://nanoavionics.com/small-satellite-configurator/",
+   "sourceTitle": "NanoAvionics public configurator",
+   "published": null,
+   "accessed": "2026-10-30",
+   "recorded": null,
+   "confidence": "Published",
+   "workbook": null,
+   "specs": null
+  },
+  {
+   "id": "price-m12max",
+   "bus": "m12",
+   "supplier": null,
+   "config": "M12P Max",
+   "low": 763730,
+   "high": 763730,
+   "currency": "EUR",
+   "kind": "Bus price",
+   "priceBasis": "single",
+   "quantity": 1,
+   "nre": "excluded",
+   "formFactor": "12U",
+   "source": "https://nanoavionics.com/small-satellite-configurator/",
+   "sourceTitle": "NanoAvionics public configurator",
+   "published": null,
+   "accessed": "2026-10-30",
+   "recorded": null,
+   "confidence": "Published",
+   "workbook": null,
+   "specs": null
+  },
+  {
+   "id": "price-m16light",
+   "bus": "m12",
+   "supplier": null,
+   "config": "M16P Light",
+   "low": 439160,
+   "high": 439160,
+   "currency": "EUR",
+   "kind": "Bus price",
+   "priceBasis": "single",
+   "quantity": 1,
+   "nre": "excluded",
+   "formFactor": "16U",
+   "source": "https://nanoavionics.com/small-satellite-configurator/",
+   "sourceTitle": "NanoAvionics public configurator",
+   "published": null,
+   "accessed": "2026-10-30",
+   "recorded": null,
+   "confidence": "Published",
+   "workbook": null,
+   "specs": null
+  },
+  {
+   "id": "price-m16max",
+   "bus": "m12",
+   "supplier": null,
+   "config": "M16P Max",
+   "low": 863880,
+   "high": 863880,
+   "currency": "EUR",
+   "kind": "Bus price",
+   "priceBasis": "single",
+   "quantity": 1,
+   "nre": "excluded",
+   "formFactor": "16U",
+   "source": "https://nanoavionics.com/small-satellite-configurator/",
+   "sourceTitle": "NanoAvionics public configurator",
+   "published": null,
+   "accessed": "2026-10-30",
+   "recorded": null,
+   "confidence": "Published",
+   "workbook": null,
+   "specs": null
+  },
+  {
+   "id": "price-m6light",
+   "bus": "m6",
+   "supplier": null,
+   "config": "M6P Light",
+   "low": 401390,
+   "high": 401390,
+   "currency": "EUR",
+   "kind": "Bus price",
+   "priceBasis": "single",
+   "quantity": 1,
+   "nre": "excluded",
+   "formFactor": "6U",
+   "source": "https://nanoavionics.com/small-satellite-configurator/",
+   "sourceTitle": "NanoAvionics public configurator",
+   "published": null,
+   "accessed": "2026-10-30",
+   "recorded": null,
+   "confidence": "Published",
+   "workbook": null,
+   "specs": {
+    "payload": 7.5,
+    "prop": "none"
+   }
+  },
+  {
+   "id": "price-m6max",
+   "bus": "m6",
+   "supplier": null,
+   "config": "M6P Max",
+   "low": 545710,
+   "high": 545710,
+   "currency": "EUR",
+   "kind": "Bus price",
+   "priceBasis": "single",
+   "quantity": 1,
+   "nre": "excluded",
+   "formFactor": "6U",
+   "source": "https://nanoavionics.com/small-satellite-configurator/",
+   "sourceTitle": "NanoAvionics public configurator",
+   "published": null,
+   "accessed": "2026-10-30",
+   "recorded": null,
+   "confidence": "Published",
+   "workbook": null,
+   "specs": {
+    "payload": 7,
+    "prop": "none"
+   }
+  },
+  {
+   "id": "price-mp42light",
+   "bus": "mp42",
+   "supplier": null,
+   "config": "MP42 15\u2033 Light",
+   "low": 1297750,
+   "high": 1297750,
+   "currency": "EUR",
+   "kind": "Bus price",
+   "priceBasis": "single",
+   "quantity": 1,
+   "nre": "excluded",
+   "formFactor": "",
+   "source": "https://nanoavionics.com/small-satellite-configurator/",
+   "sourceTitle": "NanoAvionics public configurator",
+   "published": null,
+   "accessed": "2026-10-30",
+   "recorded": null,
+   "confidence": "Published",
+   "workbook": null,
+   "specs": null
+  },
+  {
+   "id": "price-mp42max",
+   "bus": "mp42",
+   "supplier": null,
+   "config": "MP42 15\u2033 Max",
+   "low": 1736770,
+   "high": 1736770,
+   "currency": "EUR",
+   "kind": "Bus price",
+   "priceBasis": "single",
+   "quantity": 1,
+   "nre": "excluded",
+   "formFactor": "",
+   "source": "https://nanoavionics.com/small-satellite-configurator/",
+   "sourceTitle": "NanoAvionics public configurator",
+   "published": null,
+   "accessed": "2026-10-30",
+   "recorded": null,
+   "confidence": "Published",
+   "workbook": null,
+   "specs": null
+  },
+  {
+   "id": "enduro-once",
+   "bus": "enduro",
+   "supplier": null,
+   "config": "Shared Satellite Service \u00b7 1U onboarding",
+   "low": 100000,
+   "high": 100000,
+   "currency": "EUR",
+   "kind": "Hosted fee",
+   "priceBasis": "service",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "https://www.endurosat.com/wp-content/uploads/2022/02/Endurosat_Shared_Satellite_Service_03_22.pdf",
+   "sourceTitle": "EnduroSat Shared Satellite Service brochure",
+   "published": "2022-03-01",
+   "accessed": "2026-10-30",
+   "recorded": null,
+   "confidence": "Published",
+   "workbook": null,
+   "specs": null
+  },
+  {
+   "id": "enduro-year",
+   "bus": "enduro",
+   "supplier": null,
+   "config": "Shared Satellite Service \u00b7 annual fee",
+   "low": 50000,
+   "high": 50000,
+   "currency": "EUR",
+   "kind": "Annual service",
+   "priceBasis": "service",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "https://www.endurosat.com/wp-content/uploads/2022/02/Endurosat_Shared_Satellite_Service_03_22.pdf",
+   "sourceTitle": "EnduroSat Shared Satellite Service brochure",
+   "published": "2022-03-01",
+   "accessed": "2026-10-30",
+   "recorded": null,
+   "confidence": "Published",
+   "workbook": null,
+   "specs": null
+  },
+  {
+   "id": "aac-award",
+   "bus": "epic",
+   "supplier": null,
+   "config": "EPIC 16U \u00b7 OPS-SAT VOLT order",
+   "low": 2300000,
+   "high": 2300000,
+   "currency": "EUR",
+   "kind": "Contract context",
+   "priceBasis": "contract",
+   "quantity": 1,
+   "nre": "unknown",
+   "formFactor": "16U",
+   "source": "https://www.aac-clyde.space/articles/aac-clyde-space-wins-sek-27-0-m-order-for-16u-satellite",
+   "sourceTitle": "AAC Clyde Space announcement, 15 May 2024",
+   "published": "2024-05-15",
+   "accessed": "2026-10-30",
+   "recorded": null,
+   "confidence": "Published",
+   "workbook": null,
+   "specs": null
+  },
+  {
+   "id": "wb-epic-base",
+   "bus": "epic",
+   "supplier": null,
+   "config": "CubeSat 6U / 12U (EPIC Platform)",
+   "low": 150000.0,
+   "high": 250000.0,
+   "currency": "USD",
+   "kind": "Workbook base range",
+   "priceBasis": "unknown",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 2",
+   "sourceTitle": "ESA OSIN Database (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-epic-volume",
+   "bus": "epic",
+   "supplier": null,
+   "config": "CubeSat 6U / 12U (EPIC Platform)",
+   "low": 120000.0,
+   "high": 120000.0,
+   "currency": "USD",
+   "kind": "Workbook volume proxy",
+   "priceBasis": "volume",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 2",
+   "sourceTitle": "ESA OSIN Database (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-vsp-base",
+   "bus": "vsp",
+   "supplier": null,
+   "config": "ESPA-Class / SmallSat (VSP-150 / VSP-300)",
+   "low": 1500000.0,
+   "high": 2500000.0,
+   "currency": "USD",
+   "kind": "Workbook base range",
+   "priceBasis": "unknown",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 3",
+   "sourceTitle": "EU Horizon Grants / Press (Inferred)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Inferred",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-vsp-volume",
+   "bus": "vsp",
+   "supplier": null,
+   "config": "ESPA-Class / SmallSat (VSP-150 / VSP-300)",
+   "low": 1100000.0,
+   "high": 1100000.0,
+   "currency": "USD",
+   "kind": "Workbook volume proxy",
+   "priceBasis": "volume",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 3",
+   "sourceTitle": "EU Horizon Grants / Press (Inferred)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Inferred",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-arrow150-base",
+   "bus": "arrow150",
+   "supplier": null,
+   "config": "ESPA-Class (ARROW-150)",
+   "low": 2500000.0,
+   "high": 3500000.0,
+   "currency": "USD",
+   "kind": "Workbook base range",
+   "priceBasis": "unknown",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 4",
+   "sourceTitle": "SDA / OneWeb benchmarks (Inferred)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Inferred",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-arrow150-volume",
+   "bus": "arrow150",
+   "supplier": null,
+   "config": "ESPA-Class (ARROW-150)",
+   "low": 1500000.0,
+   "high": 2000000.0,
+   "currency": "USD",
+   "kind": "Workbook volume proxy",
+   "priceBasis": "volume",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 4",
+   "sourceTitle": "SDA / OneWeb benchmarks (Inferred)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Inferred",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-arrow450-base",
+   "bus": "arrow450",
+   "supplier": null,
+   "config": "ESPA Grande (ARROW-450)",
+   "low": 4000000.0,
+   "high": 6000000.0,
+   "currency": "USD",
+   "kind": "Workbook base range",
+   "priceBasis": "unknown",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 5",
+   "sourceTitle": "SDA Tranche 1 Awards (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-arrow450-volume",
+   "bus": "arrow450",
+   "supplier": null,
+   "config": "ESPA Grande (ARROW-450)",
+   "low": 3500000.0,
+   "high": 3500000.0,
+   "currency": "USD",
+   "kind": "Workbook volume proxy",
+   "priceBasis": "volume",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 5",
+   "sourceTitle": "SDA Tranche 1 Awards (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-geoaries-base",
+   "bus": "geoaries",
+   "supplier": null,
+   "config": "ESPA-Class (GEO Aries)",
+   "low": 3500000.0,
+   "high": 4500000.0,
+   "currency": "USD",
+   "kind": "Workbook base range",
+   "priceBasis": "unknown",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 6",
+   "sourceTitle": "Apex Public Pricing (Quoted/Est)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Workbook quoted",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-geoaries-volume",
+   "bus": "geoaries",
+   "supplier": null,
+   "config": "ESPA-Class (GEO Aries)",
+   "low": 3000000.0,
+   "high": 3000000.0,
+   "currency": "USD",
+   "kind": "Workbook volume proxy",
+   "priceBasis": "volume",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 6",
+   "sourceTitle": "Apex Public Pricing (Quoted/Est)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Workbook quoted",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-leoaries-base",
+   "bus": "leoaries",
+   "supplier": null,
+   "config": "ESPA-Class (LEO Aries)",
+   "low": 1200000.0,
+   "high": 1200000.0,
+   "currency": "USD",
+   "kind": "Workbook base range",
+   "priceBasis": "unknown",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 7",
+   "sourceTitle": "Apex Public Pricing (Quoted)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Workbook quoted",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-leoaries-volume",
+   "bus": "leoaries",
+   "supplier": null,
+   "config": "ESPA-Class (LEO Aries)",
+   "low": 900000.0,
+   "high": 900000.0,
+   "currency": "USD",
+   "kind": "Workbook volume proxy",
+   "priceBasis": "volume",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 7",
+   "sourceTitle": "Apex Public Pricing (Quoted)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Workbook quoted",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-nova-base",
+   "bus": "nova",
+   "supplier": null,
+   "config": "ESPA Grande (Nova)",
+   "low": 4000000.0,
+   "high": null,
+   "currency": "USD",
+   "kind": "Workbook base range",
+   "priceBasis": "unknown",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 8",
+   "sourceTitle": "Industry Benchmarks (Inferred)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Inferred",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-nova-volume",
+   "bus": "nova",
+   "supplier": null,
+   "config": "ESPA Grande (Nova)",
+   "low": 3500000.0,
+   "high": 3500000.0,
+   "currency": "USD",
+   "kind": "Workbook volume proxy",
+   "priceBasis": "volume",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 8",
+   "sourceTitle": "Industry Benchmarks (Inferred)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Inferred",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-corvus-base",
+   "bus": "corvus",
+   "supplier": null,
+   "config": "SmallSat / MicroSat (Corvus-XL / Micro)",
+   "low": 1000000.0,
+   "high": 1500000.0,
+   "currency": "USD",
+   "kind": "Workbook base range",
+   "priceBasis": "unknown",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 9",
+   "sourceTitle": "NASA SBIR/STTR Data (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-corvus-volume",
+   "bus": "corvus",
+   "supplier": null,
+   "config": "SmallSat / MicroSat (Corvus-XL / Micro)",
+   "low": 850000.0,
+   "high": 850000.0,
+   "currency": "USD",
+   "kind": "Workbook volume proxy",
+   "priceBasis": "volume",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 9",
+   "sourceTitle": "NASA SBIR/STTR Data (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-bcp100-base",
+   "bus": "bcp100",
+   "supplier": null,
+   "config": "ESPA-Class (BCP-100)",
+   "low": 4000000.0,
+   "high": 6000000.0,
+   "currency": "USD",
+   "kind": "Workbook base range",
+   "priceBasis": "unknown",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 10",
+   "sourceTitle": "NASA ROSC-P Catalog (Quoted)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Workbook quoted",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-bcp100-volume",
+   "bus": "bcp100",
+   "supplier": null,
+   "config": "ESPA-Class (BCP-100)",
+   "low": 3500000.0,
+   "high": 3500000.0,
+   "currency": "USD",
+   "kind": "Workbook volume proxy",
+   "priceBasis": "volume",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 10",
+   "sourceTitle": "NASA ROSC-P Catalog (Quoted)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Workbook quoted",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-xb-base",
+   "bus": "xb",
+   "supplier": null,
+   "config": "CubeSat 6U / 12U / 16U (XB6, XB12, XB16)",
+   "low": 150000.0,
+   "high": 300000.0,
+   "currency": "USD",
+   "kind": "Workbook base range",
+   "priceBasis": "unknown",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 11",
+   "sourceTitle": "NASA SBIR/STTR (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-xb-volume",
+   "bus": "xb",
+   "supplier": null,
+   "config": "CubeSat 6U / 12U / 16U (XB6, XB12, XB16)",
+   "low": 120000.0,
+   "high": 120000.0,
+   "currency": "USD",
+   "kind": "Workbook volume proxy",
+   "priceBasis": "volume",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 11",
+   "sourceTitle": "NASA SBIR/STTR (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-saturn100-base",
+   "bus": "saturn100",
+   "supplier": null,
+   "config": "ESPA-Class (Saturn-100 / X-Sat)",
+   "low": 2500000.0,
+   "high": 3500000.0,
+   "currency": "USD",
+   "kind": "Workbook base range",
+   "priceBasis": "unknown",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 12",
+   "sourceTitle": "DoD/NASA Awards (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-saturn100-volume",
+   "bus": "saturn100",
+   "supplier": null,
+   "config": "ESPA-Class (Saturn-100 / X-Sat)",
+   "low": 2000000.0,
+   "high": 2000000.0,
+   "currency": "USD",
+   "kind": "Workbook volume proxy",
+   "priceBasis": "volume",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 12",
+   "sourceTitle": "DoD/NASA Awards (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-saturn200-base",
+   "bus": "saturn200",
+   "supplier": null,
+   "config": "ESPA Grande (Saturn-200)",
+   "low": 3500000.0,
+   "high": 4500000.0,
+   "currency": "USD",
+   "kind": "Workbook base range",
+   "priceBasis": "unknown",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 13",
+   "sourceTitle": "DoD/NASA Awards (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-saturn200-volume",
+   "bus": "saturn200",
+   "supplier": null,
+   "config": "ESPA Grande (Saturn-200)",
+   "low": 3000000.0,
+   "high": 3000000.0,
+   "currency": "USD",
+   "kind": "Workbook volume proxy",
+   "priceBasis": "volume",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 13",
+   "sourceTitle": "DoD/NASA Awards (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-saturn400-base",
+   "bus": "saturn400",
+   "supplier": null,
+   "config": "ESPA Grande+ (Saturn-400)",
+   "low": 4500000.0,
+   "high": 5500000.0,
+   "currency": "USD",
+   "kind": "Workbook base range",
+   "priceBasis": "unknown",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 14",
+   "sourceTitle": "NASA ROSC-P Catalog (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-saturn400-volume",
+   "bus": "saturn400",
+   "supplier": null,
+   "config": "ESPA Grande+ (Saturn-400)",
+   "low": 4000000.0,
+   "high": 4000000.0,
+   "currency": "USD",
+   "kind": "Workbook volume proxy",
+   "priceBasis": "volume",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 14",
+   "sourceTitle": "NASA ROSC-P Catalog (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-enduro-base",
+   "bus": "enduro",
+   "supplier": null,
+   "config": "CubeSat 6U / 12U / 16U Platform",
+   "low": 120000.0,
+   "high": 250000.0,
+   "currency": "USD",
+   "kind": "Workbook base range",
+   "priceBasis": "unknown",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 15",
+   "sourceTitle": "EnduroSat Public Configurator (Quoted)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Workbook quoted",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-enduro-volume",
+   "bus": "enduro",
+   "supplier": null,
+   "config": "CubeSat 6U / 12U / 16U Platform",
+   "low": 95000.0,
+   "high": 95000.0,
+   "currency": "USD",
+   "kind": "Workbook volume proxy",
+   "priceBasis": "volume",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 15",
+   "sourceTitle": "EnduroSat Public Configurator (Quoted)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Workbook quoted",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-gom-base",
+   "bus": "gom",
+   "supplier": null,
+   "config": "CubeSat 6U / 12U (Multi-Purpose)",
+   "low": 150000.0,
+   "high": 250000.0,
+   "currency": "USD",
+   "kind": "Workbook base range",
+   "priceBasis": "unknown",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 16",
+   "sourceTitle": "ESA-STAR Registry (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-gom-volume",
+   "bus": "gom",
+   "supplier": null,
+   "config": "CubeSat 6U / 12U (Multi-Purpose)",
+   "low": 110000.0,
+   "high": 110000.0,
+   "currency": "USD",
+   "kind": "Workbook volume proxy",
+   "priceBasis": "volume",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 16",
+   "sourceTitle": "ESA-STAR Registry (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-mega-base",
+   "bus": "mega",
+   "supplier": null,
+   "config": "Heavy / Mega-Class (Mega Class Bus)",
+   "low": 10000000.0,
+   "high": 15000000.0,
+   "currency": "USD",
+   "kind": "Workbook base range",
+   "priceBasis": "unknown",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 17",
+   "sourceTitle": "Venture/Investor Press (Inferred)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Inferred",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-mega-volume",
+   "bus": "mega",
+   "supplier": null,
+   "config": "Heavy / Mega-Class (Mega Class Bus)",
+   "low": 9000000.0,
+   "high": 9000000.0,
+   "currency": "USD",
+   "kind": "Workbook volume proxy",
+   "priceBasis": "volume",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 17",
+   "sourceTitle": "Venture/Investor Press (Inferred)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Inferred",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-m12-base",
+   "bus": "m12",
+   "supplier": null,
+   "config": "CubeSat 12U & 16U (M12P / M16P)",
+   "low": 250000.0,
+   "high": 400000.0,
+   "currency": "USD",
+   "kind": "Workbook base range",
+   "priceBasis": "unknown",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 18",
+   "sourceTitle": "NanoAvionics Configurator (Quoted)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Workbook quoted",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-m12-volume",
+   "bus": "m12",
+   "supplier": null,
+   "config": "CubeSat 12U & 16U (M12P / M16P)",
+   "low": 180000.0,
+   "high": 180000.0,
+   "currency": "USD",
+   "kind": "Workbook volume proxy",
+   "priceBasis": "volume",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 18",
+   "sourceTitle": "NanoAvionics Configurator (Quoted)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Workbook quoted",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-m6-base",
+   "bus": "m6",
+   "supplier": null,
+   "config": "CubeSat 6U (M6P)",
+   "low": 150000.0,
+   "high": 250000.0,
+   "currency": "USD",
+   "kind": "Workbook base range",
+   "priceBasis": "unknown",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 19",
+   "sourceTitle": "NanoAvionics Configurator (Quoted)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Workbook quoted",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-m6-volume",
+   "bus": "m6",
+   "supplier": null,
+   "config": "CubeSat 6U (M6P)",
+   "low": 120000.0,
+   "high": 120000.0,
+   "currency": "USD",
+   "kind": "Workbook volume proxy",
+   "priceBasis": "volume",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 19",
+   "sourceTitle": "NanoAvionics Configurator (Quoted)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Workbook quoted",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-mp42-base",
+   "bus": "mp42",
+   "supplier": null,
+   "config": "SmallSat / MicroSat (MP42)",
+   "low": 1200000.0,
+   "high": 1800000.0,
+   "currency": "USD",
+   "kind": "Workbook base range",
+   "priceBasis": "unknown",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 20",
+   "sourceTitle": "NanoAvionics Configurator (Quoted)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Workbook quoted",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-mp42-volume",
+   "bus": "mp42",
+   "supplier": null,
+   "config": "SmallSat / MicroSat (MP42)",
+   "low": 950000.0,
+   "high": 950000.0,
+   "currency": "USD",
+   "kind": "Workbook volume proxy",
+   "priceBasis": "volume",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 20",
+   "sourceTitle": "NanoAvionics Configurator (Quoted)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Workbook quoted",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-lm400-base",
+   "bus": "lm400",
+   "supplier": null,
+   "config": "ESPA Grande+ / Mid-Size (LM 400)",
+   "low": 10000000.0,
+   "high": null,
+   "currency": "USD",
+   "kind": "Workbook base range",
+   "priceBasis": "unknown",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 21",
+   "sourceTitle": "SDA Tranche 2 Awards (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-lm400-volume",
+   "bus": "lm400",
+   "supplier": null,
+   "config": "ESPA Grande+ / Mid-Size (LM 400)",
+   "low": 8000000.0,
+   "high": 10000000.0,
+   "currency": "USD",
+   "kind": "Workbook volume proxy",
+   "priceBasis": "volume",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 21",
+   "sourceTitle": "SDA Tranche 2 Awards (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-lm50-base",
+   "bus": "lm50",
+   "supplier": null,
+   "config": "SmallSat / ESPA-Class (LM 50)",
+   "low": 3500000.0,
+   "high": 5000000.0,
+   "currency": "USD",
+   "kind": "Workbook base range",
+   "priceBasis": "unknown",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 22",
+   "sourceTitle": "USSF/SDA Contract Proxies (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-lm50-volume",
+   "bus": "lm50",
+   "supplier": null,
+   "config": "SmallSat / ESPA-Class (LM 50)",
+   "low": 3000000.0,
+   "high": 3000000.0,
+   "currency": "USD",
+   "kind": "Workbook volume proxy",
+   "priceBasis": "volume",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 22",
+   "sourceTitle": "USSF/SDA Contract Proxies (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-loft-base",
+   "bus": "loft",
+   "supplier": null,
+   "config": "ESPA Grande (Longbow / YAM)",
+   "low": 5000000.0,
+   "high": 8000000.0,
+   "currency": "USD",
+   "kind": "Workbook base range",
+   "priceBasis": "service",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 23",
+   "sourceTitle": "USAspending.gov / Press (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-loft-volume",
+   "bus": "loft",
+   "supplier": null,
+   "config": "ESPA Grande (Longbow / YAM)",
+   "low": 4500000.0,
+   "high": 4500000.0,
+   "currency": "USD",
+   "kind": "Workbook volume proxy",
+   "priceBasis": "service",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 23",
+   "sourceTitle": "USAspending.gov / Press (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-millennium-base",
+   "bus": "millennium",
+   "supplier": null,
+   "config": "ESPA / ESPA Grande (ALTAIR)",
+   "low": 4000000.0,
+   "high": 6000000.0,
+   "currency": "USD",
+   "kind": "Workbook base range",
+   "priceBasis": "unknown",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 24",
+   "sourceTitle": "DoD USAspending.gov (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-millennium-volume",
+   "bus": "millennium",
+   "supplier": null,
+   "config": "ESPA / ESPA Grande (ALTAIR)",
+   "low": 3500000.0,
+   "high": 3500000.0,
+   "currency": "USD",
+   "kind": "Workbook volume proxy",
+   "priceBasis": "volume",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 24",
+   "sourceTitle": "DoD USAspending.gov (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-muonxl-base",
+   "bus": "muonxl",
+   "supplier": null,
+   "config": "ESPA Grande (Condor-XL)",
+   "low": 4000000.0,
+   "high": 6000000.0,
+   "currency": "USD",
+   "kind": "Workbook base range",
+   "priceBasis": "unknown",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 25",
+   "sourceTitle": "Investor Disclosures (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-muonxl-volume",
+   "bus": "muonxl",
+   "supplier": null,
+   "config": "ESPA Grande (Condor-XL)",
+   "low": 3500000.0,
+   "high": 3500000.0,
+   "currency": "USD",
+   "kind": "Workbook volume proxy",
+   "priceBasis": "volume",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 25",
+   "sourceTitle": "Investor Disclosures (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-muonsmall-base",
+   "bus": "muonsmall",
+   "supplier": null,
+   "config": "SmallSat / ESPA-Class (Halo / Condor-M)",
+   "low": 2000000.0,
+   "high": 3000000.0,
+   "currency": "USD",
+   "kind": "Workbook base range",
+   "priceBasis": "unknown",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 26",
+   "sourceTitle": "Investor Disclosures (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-muonsmall-volume",
+   "bus": "muonsmall",
+   "supplier": null,
+   "config": "SmallSat / ESPA-Class (Halo / Condor-M)",
+   "low": 1800000.0,
+   "high": 1800000.0,
+   "currency": "USD",
+   "kind": "Workbook volume proxy",
+   "priceBasis": "volume",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 26",
+   "sourceTitle": "Investor Disclosures (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-espa-base",
+   "bus": "espa",
+   "supplier": null,
+   "config": "ESPA / ESPA Grande Ring Bus (ESPAStar-D / ESPAStar-EP)",
+   "low": 12000000.0,
+   "high": 18000000.0,
+   "currency": "USD",
+   "kind": "Workbook base range",
+   "priceBasis": "unknown",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 27",
+   "sourceTitle": "USAspending (ROOSTER/LDPE) (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-espa-volume",
+   "bus": "espa",
+   "supplier": null,
+   "config": "ESPA / ESPA Grande Ring Bus (ESPAStar-D / ESPAStar-EP)",
+   "low": 10000000.0,
+   "high": 10000000.0,
+   "currency": "USD",
+   "kind": "Workbook volume proxy",
+   "priceBasis": "volume",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 27",
+   "sourceTitle": "USAspending (ROOSTER/LDPE) (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-reflex-base",
+   "bus": "reflex",
+   "supplier": null,
+   "config": "SmallSat / ESPA-Class (SIGI Platform)",
+   "low": 2500000.0,
+   "high": 3500000.0,
+   "currency": "USD",
+   "kind": "Workbook base range",
+   "priceBasis": "unknown",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 28",
+   "sourceTitle": "F\u00f6rderkatalog (German Gov DB) (Inferred)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Inferred",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-reflex-volume",
+   "bus": "reflex",
+   "supplier": null,
+   "config": "SmallSat / ESPA-Class (SIGI Platform)",
+   "low": 1500000.0,
+   "high": 2000000.0,
+   "currency": "USD",
+   "kind": "Workbook volume proxy",
+   "priceBasis": "volume",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 28",
+   "sourceTitle": "F\u00f6rderkatalog (German Gov DB) (Inferred)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Inferred",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-photon-base",
+   "bus": "photon",
+   "supplier": null,
+   "config": "ESPA-Class (Photon LEO / Explorer)",
+   "low": 2000000.0,
+   "high": 3500000.0,
+   "currency": "USD",
+   "kind": "Workbook base range",
+   "priceBasis": "unknown",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 29",
+   "sourceTitle": "SEC Filings (RKLB 10-K) (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-photon-volume",
+   "bus": "photon",
+   "supplier": null,
+   "config": "ESPA-Class (Photon LEO / Explorer)",
+   "low": 1800000.0,
+   "high": 1800000.0,
+   "currency": "USD",
+   "kind": "Workbook volume proxy",
+   "priceBasis": "volume",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 29",
+   "sourceTitle": "SEC Filings (RKLB 10-K) (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-sstl-base",
+   "bus": "sstl",
+   "supplier": null,
+   "config": "SmallSat (Carbonite / SSTL-42)",
+   "low": 2500000.0,
+   "high": 4000000.0,
+   "currency": "USD",
+   "kind": "Workbook base range",
+   "priceBasis": "unknown",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 30",
+   "sourceTitle": "ESA-STAR Registry (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-sstl-volume",
+   "bus": "sstl",
+   "supplier": null,
+   "config": "SmallSat (Carbonite / SSTL-42)",
+   "low": 2000000.0,
+   "high": 2000000.0,
+   "currency": "USD",
+   "kind": "Workbook volume proxy",
+   "priceBasis": "volume",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 30",
+   "sourceTitle": "ESA-STAR Registry (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-terrancube-base",
+   "bus": "terrancube",
+   "supplier": null,
+   "config": "CubeSat / MicroSat 6U-16U (Renegade / Triumph / Voyager)",
+   "low": 200000.0,
+   "high": 400000.0,
+   "currency": "USD",
+   "kind": "Workbook base range",
+   "priceBasis": "unknown",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 31",
+   "sourceTitle": "NASA SBIR/STTR Data (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-terrancube-volume",
+   "bus": "terrancube",
+   "supplier": null,
+   "config": "CubeSat / MicroSat 6U-16U (Renegade / Triumph / Voyager)",
+   "low": 150000.0,
+   "high": 150000.0,
+   "currency": "USD",
+   "kind": "Workbook volume proxy",
+   "priceBasis": "volume",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 31",
+   "sourceTitle": "NASA SBIR/STTR Data (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-terranamb-base",
+   "bus": "terranamb",
+   "supplier": null,
+   "config": "ESPA Grande (Ambassador Platform)",
+   "low": 3000000.0,
+   "high": 4500000.0,
+   "currency": "USD",
+   "kind": "Workbook base range",
+   "priceBasis": "unknown",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 32",
+   "sourceTitle": "SDA Tranche 1 Awards (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-terranamb-volume",
+   "bus": "terranamb",
+   "supplier": null,
+   "config": "ESPA Grande (Ambassador Platform)",
+   "low": 2500000.0,
+   "high": 2500000.0,
+   "currency": "USD",
+   "kind": "Workbook volume proxy",
+   "priceBasis": "volume",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 32",
+   "sourceTitle": "SDA Tranche 1 Awards (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-york-base",
+   "bus": "york",
+   "supplier": null,
+   "config": "ESPA-Class (S-Class)",
+   "low": 1500000.0,
+   "high": 2500000.0,
+   "currency": "USD",
+   "kind": "Workbook base range",
+   "priceBasis": "unknown",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 33",
+   "sourceTitle": "York Public Releases / SDA (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-york-volume",
+   "bus": "york",
+   "supplier": null,
+   "config": "ESPA-Class (S-Class)",
+   "low": 1200000.0,
+   "high": 1200000.0,
+   "currency": "USD",
+   "kind": "Workbook volume proxy",
+   "priceBasis": "volume",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 33",
+   "sourceTitle": "York Public Releases / SDA (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-yorklx-base",
+   "bus": "yorklx",
+   "supplier": null,
+   "config": "ESPA Grande (LX-Class)",
+   "low": 2500000.0,
+   "high": 4000000.0,
+   "currency": "USD",
+   "kind": "Workbook base range",
+   "priceBasis": "unknown",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 34",
+   "sourceTitle": "USAspending / SDA Tranche 1 (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "wb-yorklx-volume",
+   "bus": "yorklx",
+   "supplier": null,
+   "config": "ESPA Grande (LX-Class)",
+   "low": 2200000.0,
+   "high": 2200000.0,
+   "currency": "USD",
+   "kind": "Workbook volume proxy",
+   "priceBasis": "volume",
+   "quantity": null,
+   "nre": "unknown",
+   "formFactor": "",
+   "source": "Oligo Space.xlsx / Pricing and Propulsion / row 34",
+   "sourceTitle": "USAspending / SDA Tranche 1 (Estimated)",
+   "published": null,
+   "accessed": null,
+   "recorded": "2026-10-30",
+   "confidence": "Estimated",
+   "workbook": true,
+   "specs": null
+  },
+  {
+   "id": "nano-spinlaunch-meridian",
+   "bus": null,
+   "supplier": "Kongsberg NanoAvionics",
+   "config": "Meridian Space \u00b7 initial production contract",
+   "low": 122500000,
+   "high": 122500000,
+   "currency": "EUR",
+   "kind": "Contract context",
+   "priceBasis": "contract",
+   "quantity": 280,
+   "nre": "included",
+   "formFactor": "",
+   "source": "https://nanoavionics.com/news/nanoavionics-secures-e122-5m-contract-to-build-280-satellites-for-meridian-space-spinlaunchs-global-broadband-constellation/",
+   "sourceTitle": "NanoAvionics \u00b7 Meridian Space contract announcement",
+   "published": "2025-04-03",
+   "accessed": "2026-11-05",
+   "recorded": null,
+   "confidence": "Published",
+   "workbook": null,
+   "specs": null
+  }
+ ]
+}
