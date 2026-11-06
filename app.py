@@ -77,6 +77,31 @@ def run_scrape() -> tuple[int, str]:
         return 1, "Scrape stopped after 15 minutes."
 
 
+def _gh_config() -> tuple[str | None, str | None]:
+    try:
+        return st.secrets["GITHUB_TOKEN"], st.secrets["GITHUB_REPO"]
+    except Exception:
+        return os.environ.get("GITHUB_TOKEN"), os.environ.get("GITHUB_REPO")
+
+
+def trigger_github_scrape() -> tuple[bool, str]:
+    """Ask GitHub Actions to run the scrape workflow (works from the hosted app)."""
+    import requests
+    token, repo = _gh_config()
+    if not token or not repo:
+        return False, "GITHUB_TOKEN and GITHUB_REPO are not set in the app secrets."
+    url = f"https://api.github.com/repos/{repo}/actions/workflows/scrape_schedule.yml/dispatches"
+    try:
+        r = requests.post(url, json={"ref": "main"}, timeout=20,
+                          headers={"Authorization": f"Bearer {token}",
+                                   "Accept": "application/vnd.github+json"})
+    except requests.RequestException as exc:
+        return False, f"Could not reach GitHub: {exc}"
+    if r.status_code == 204:
+        return True, f"Scrape started on GitHub. Follow it at https://github.com/{repo}/actions"
+    return False, f"GitHub returned {r.status_code}: {r.text[:300]}"
+
+
 def num(x):
     return None if x is None or pd.isna(x) else float(x)
 
@@ -139,16 +164,27 @@ if b1.button("Refresh data", help="Reload from the database now"):
     st.cache_data.clear()
     st.rerun()
 if b2.button("Scrape now", disabled=mode != "live",
-             help="Runs the price and press scrapers. Needs a live database and Playwright installed locally."):
-    with st.spinner("Scraping prices and press releases (1–3 minutes)…"):
-        code, output = run_scrape()
-    st.session_state["scrape_output"] = (code, output)
+             help="Starts the scrapers on GitHub (hosted app) or runs them here (your computer)."):
+    token, repo = _gh_config()
+    if token and repo:
+        with st.spinner("Asking GitHub to start the scrape…"):
+            ok, msg = trigger_github_scrape()
+        st.session_state["scrape_output"] = (0 if ok else 1, msg, "github")
+    else:
+        with st.spinner("Scraping prices and press releases (1–3 minutes)…"):
+            code, output = run_scrape()
+        st.session_state["scrape_output"] = (code, output, "local")
     st.cache_data.clear()
 if "scrape_output" in st.session_state:
-    code, output = st.session_state["scrape_output"]
-    (st.success if code == 0 else st.error)("Scrape finished." if code == 0 else "Scrape finished with errors.")
-    with st.expander("Scrape log", expanded=code != 0):
-        st.code(output[-6000:] or "(no output)")
+    code, output, where = st.session_state["scrape_output"]
+    if where == "github":
+        (st.info if code == 0 else st.error)(output)
+        if code == 0:
+            st.caption("The job takes 2–3 minutes. Click Refresh data after it finishes.")
+    else:
+        (st.success if code == 0 else st.error)("Scrape finished." if code == 0 else "Scrape finished with errors.")
+        with st.expander("Scrape log", expanded=code != 0):
+            st.code(output[-6000:] or "(no output)")
 
 # --------------------------------------------------------------------------- #
 # Sidebar: mission + strategy
